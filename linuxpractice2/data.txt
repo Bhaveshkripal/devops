@@ -1,0 +1,2 @@
+/home/ubuntu/devops/linuxpractice2
+
