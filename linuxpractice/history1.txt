@@ -1,0 +1,167 @@
+    1  ls
+    2  pwd
+    3  whoami
+    4  ls -l
+    5  tree
+    6  mkdir devops 
+    7  mkdir devops
+    8  mkdir -p devops
+    9  mkdir devops/linux practice
+   10  cd deevops/
+   11  cd devops/
+   12  ls 
+   13  mv linux linuxpractice
+   14  ls
+   15  cd linuxpractice
+   16  cd ..
+   17  touch linuxpratice/touch.txt
+   18  cd liunxpractice
+   19  cd linuxpractice
+   20  touch readme.md
+   21  vim readme.md
+   22  vim fulloutput.md
+   23  clear
+   24  ls
+   25  cd practicee
+   26  cd practice
+   27  ls
+   28  cd ..
+   29  rm -f practice
+   30  rm -rf practice
+   31  ls
+   32  cd devops
+   33  ls
+   34  cd linuxpractice
+   35  ls
+   36  df -h
+   37  df -h | outputfile.txt
+   38  df -h >> outputfile.txt
+   39  ls
+   40  cat "*********************"
+   41  echo "******************"
+   42  echo "******************************************* this is the output of free disk space **********************************" . outputfile.txt
+   43  df -h >> outputfile.txt
+   44  cat outputfilee.txt
+   45  cat outputfile.txt
+   46  echo "******************************************* this is the output of date **********************************" > outputfile.txt
+   47  df -h >> outputfile.txt
+   48  cat outputfile.txt
+   49  echo "******************************************* this is the output of free disk space **********************************" > outputfile.txt
+   50  df -h >> outputfile.txt
+   51  cat outputfile.txt
+   52  echo "******************************************* this is the output of date **********************************" >> outputfile.txt
+   53  date >> outputfile.txt
+   54  touch history.txt
+   55  histroy >> history.txt
+   56  history >> history.txt
+   57  cat history.txt
+   58  clear
+   59  echo "******************************************* managed software commands **********************************" >> outputfile.txt
+   60  sudo apt update && sudo apt upgarde
+   61  sudo apt upgrade
+   62  sudo install nginx
+   63  sudo apt install nginx
+   64  apt search ngnix
+   65  apt search nginx
+   66  grep -ir "port"
+   67  nginx -v
+   68  systemctl status nginx
+   69  curl http://localhost
+   70  sudo systemctl stop nginx
+   71  sudo systemctl status nginx
+   72  grep "out"
+   73  sudo systemctl status nginx
+   74  cat outoutfile.txt
+   75  cat outputfile.txt
+   76  cat devops/linuxpractice/outputfile.txt
+   77  nginx -v >> outputfile.txt
+   78  cat devops/linuxpractice/outputfile.txt
+   79  nginx -v 2>> outputfile.txt
+   80  cat devops/linuxpractice/outputfile.txt
+   81  nginx -v &>> outputfile.txt
+   82  cat devops/linuxpractice/outputfile.txt
+   83  echo "nginx -v" >> outputfile.txt
+   84  cat devops/linuxpractice/outputfile.txt
+   85  cd devops/linuxpractice/
+   86  ls
+   87  nginx -v &>> outputfile.txt
+   88  cat devops/linuxpractice/outputfile.txt
+   89  cat outputfile.txt
+   90  echo &\ >> outputfile.txt
+   91  sudo systeemctl status nginx >> outputfile.txt
+   92  sudo systemctl status nginx >> outputfile.txt
+   93  cat outputfile.txt
+   94  sudo systemctl start nginx
+   95  sudo systemctl start nginx >> outputfile.txt
+   96  sudo systemctl stop nginx >> outputfile.txt
+   97  sudo systemctl status nginx
+   98  sudo apt remove nginx >> outputfile.txt
+   99  nginx -v
+  100  cat outputfile.txt
+  101  history
+  102  cat history.txt
+  103  echo >> history.txt
+  104  cat history.txt
+  105  echo "************************************ Package manager history log ******************" >> history.txt
+  106  history >> history.txt
+  107  clear
+  108  more outputfile.txt
+  109  head -5 outputfile.txt
+  110  less -15 outputfile.txt
+  111  less outputfile.txt
+  112  tail outputfile.txt
+  113  wc -l outputfile.txt
+  114  echo "***************************************    Viewing and editing files practice  ******************************" >> outputfile.txt
+  115  echo "" >> outputfile.txt
+  116  tail outputfile.txt
+  117  echo " commands will be seen in history.txt file " >> outputfile.txt
+  118  wc -l outputfile >> outputfile.txt
+  119  wc -l outputfile.txt >> outputfile.txt
+  120  echo "" >> outputfile.txt
+  121  wc -c outputfile.txt >> outputfile.txt
+  122  echo "" >> outputfile.txt
+  123  history
+  124  history >> history.txt
+  125  cat history.txt
+  126  exit
+  127  ls
+  128  cat outputfile.txt
+  129  rm outputfile.txt
+  130  ls
+  131  cd devops/linuxpractice
+  132  ls
+  133  top
+  134  htop
+  135  ps
+  136  ps -a
+  137  echo " ***************************************************  Networking *********************************************** " >> outputfilee.txt
+  138  echo " ***************************************************  Networking *********************************************** " >> outputfile.txt
+  139  rm ouputfilee.txt
+  140  rm outputfilee.txt
+  141  ls
+  142  ip 
+  143  ip a
+  144  ip route
+  145  i fcongfig
+  146  ifconfig
+  147  sudo apt install net-tools
+  148  ifconfig
+  149  ping -5 google.com
+  150  ping -5c google.com
+  151  ping -c5 google.com
+  152  cd devops/linuxpractice/
+  153  nslookup google.com
+  154  cd ../..
+  155  exit
+  156  ls
+  157  cd `
+  158  cd ~
+  159  ls
+  160  exit
+  161  ls
+  162  ssh -i remotessh-key.pem ubunut@ec2-50-19-140-77
+  163  ssh -i "remotessh-key.pem" ubuntu@ec2-50-19-140-77.compute-1.amazonaws.com
+  164  chmod 400 reomtessh-key.pem
+  165  chmod 400 remotessh-key.pem
+  166  ssh -i "remotessh-key.pem" ubuntu@ec2-50-19-140-77.compute-1.amazonaws.com
+  167  history >> history.txt

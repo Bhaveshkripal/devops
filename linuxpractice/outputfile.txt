@@ -1,0 +1,63 @@
+******************************************* this is the output of free disk space **********************************
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root         19G  2.8G   16G  15% /
+tmpfs            455M     0  455M   0% /dev/shm
+tmpfs            182M  916K  181M   1% /run
+efivarfs         128K  3.1K  120K   3% /sys/firmware/efi/efivars
+tmpfs            455M     0  455M   0% /tmp
+/dev/nvme0n1p13  989M  164M  759M  18% /boot
+/dev/nvme0n1p15  105M  6.3M   99M   7% /boot/efi
+none             1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none             1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs             91M  8.0K   91M   1% /run/user/1000
+******************************************* this is the output of date **********************************
+Mon Jul 27 15:21:31 UTC 2026
+******************************************* managed software commands **********************************
+nginx version: nginx/1.28.3 (Ubuntu)
+○ nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: inactive (dead) since Mon 2026-07-27 15:46:45 UTC; 12min ago
+   Duration: 13min 32.894s
+ Invocation: 5a24e388e22b42479afe0a4b71fb7710
+       Docs: man:nginx(8)
+    Process: 65123 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 65125 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 65340 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid (code=exited, status=0/SUCCESS)
+   Main PID: 65154 (code=exited, status=0/SUCCESS)
+   Mem peak: 7.3M
+        CPU: 58ms
+
+Jul 27 15:33:12 ip-172-31-28-52 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Jul 27 15:33:12 ip-172-31-28-52 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Jul 27 15:46:45 ip-172-31-28-52 systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Jul 27 15:46:45 ip-172-31-28-52 systemd[1]: nginx.service: Deactivated successfully.
+Jul 27 15:46:45 ip-172-31-28-52 systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  nginx-common  pollinate
+Use 'sudo apt autoremove' to remove them.
+
+REMOVING:
+  nginx
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 2
+  Freed space: 1644 kB
+
+Continue? [Y/n] (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124184 files and directories currently installed.)
+Removing nginx (1.28.3-2ubuntu1.8) ...
+Processing triggers for man-db (2.13.1-1build1) ...
+***************************************    Viewing and editing files practice  ******************************
+
+ commands will be seen in history.txt file 
+58 outputfile.txt
+
+3890 outputfile.txt
+
+ ***************************************************  Networking *********************************************** 
